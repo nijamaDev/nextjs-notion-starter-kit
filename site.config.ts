@@ -4,7 +4,7 @@ export default siteConfig({
   /* (required)
     The site's root Notion page
   */
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: 'f9b740741d2c4e4bbc837800cc3a81b3',
 
   /* (optional)
     if you want to restrict pages to a single notion workspace
@@ -15,26 +15,29 @@ export default siteConfig({
   /* (required)
     Basic site info
   */
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Shingeki no Craft Official Site & Wiki',
+  domain: 'sncraft.fanfus.com',
+  author: 'Fanfus team',
 
   /* (optional)
     Open graph metadata
   */
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '\
+Shingeki no Craft Official Site and Wiki.\n\
+An Attack on Titan Minecraft Datapack.\n\
+Sncraft',
 
   /* (optional)
     Social usernames
   */
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-  // discord: 'My Server',  /* Server Name */
-  // discord_invite: 'https://discord.gg/zf6g5KQ6H4', /* Discord invite link */
+  discord: 'Shingeki no Craft Official Server',
+  discord_invite: 'https://discord.gg/zf6g5KQ6H4',
+  twitter: 'FanfoArts',
+  // github: 'nijamaDev',
+  // linkedin: 'nijamaDev',
   // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
   // newsletter: '#', /* Optional newsletter URL */
-  // youtube: '#', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
+  youtube: '@FanfoYT', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
 
   /* (optional)
     Default notion icon and cover images for site-wide consistency.
@@ -51,7 +54,7 @@ export default siteConfig({
 
   /* (optional)
     Whether or not redis is enabled for caching generated preview images.
-    NOTE: if you enable redis, you need to set the `REDIS_HOST` 
+    NOTE: If you enable redis, you need to set the `REDIS_HOST` 
     and `REDIS_PASSWORD` environment variables.
     See the readme for more info.
   */
@@ -73,16 +76,36 @@ export default siteConfig({
     or a custom one with links to important pages.
     To use `navigationLinks`, set `navigationStyle` to `custom`.
   */
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     url: 'https://twitter.com/transitive_bs'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Get Started',
+      pageId: '606e973b50894bfeb44a9da19033133e'
+    },
+    {
+      title: 'Wiki',
+      pageId: '03427235b5bc4055aefb5347895e562b'
+    },
+    {
+      title: 'Downloads',
+      pageId: 'be1d52e8e7c7458a85358eadbf3c3c67'
+    },
+    /* {
+      title: 'FAQ',
+      pageId: 'd1becce18ab24a59b020cd780f5634ff'
+    },
+    {
+      title: 'Discord',
+      url: 'https://discord.gg/zf6g5KQ6H4'
+    },
+    {
+      title: 'About us',
+      pageId: 'da705a355d6f49c18078b6cd948bce4e'
+    },
+    {
+      title: 'Support us',
+      url: 'https://www.patreon.com/Fanfo'
+    } */
+  ]
 })

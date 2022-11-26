@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "sncraft-notion",
   "version": "2.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "Sncraft notion pages hosted on Vercel. Based on nextjs-notion-starter-kit from transitivebullsh.it",
+  "author": "nijama <nijama@sncraft.online>",
+  "repository": "nijamaDev/sncraft",
   "license": "MIT",
   "engines": {
     "node": ">=18"
