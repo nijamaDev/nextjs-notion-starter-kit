@@ -20,6 +20,9 @@ importers:
       '@react-icons/all-files':
         specifier: ^4.1.0
         version: 4.1.0(react@18.3.1)
+      '@vercel/analytics':
+        specifier: ^0.1.5
+        version: 0.1.11(react@18.3.1)
       '@vercel/og':
         specifier: ^0.0.19
         version: 0.0.19
@@ -506,6 +509,11 @@ packages:
     resolution: {integrity: sha512-hgfExDzUU9uTRTPDCpw2s9jWTxcxmpJya3fK5ADpf5VDpSy8WYwY/kh28XE0tUcbsljeP8wfan48QvAQTSSa3Q==}
     peerDependencies:
       react: '>=16.8.0'
+
+  '@vercel/analytics@0.1.11':
+    resolution: {integrity: sha512-mj5CPR02y0BRs1tN3oZcBNAX9a8NxsIUl9vElDPcqxnMfP0RbRc9fI9Ud7+QDg/1Izvt5uMumsr+6YsmVHcyuw==}
+    peerDependencies:
+      react: ^16.8||^17||^18
 
   '@vercel/og@0.0.19':
     resolution: {integrity: sha512-1LrPUlCoe8T+aEI1fGdvJDhwewK1/wpYlQnF+E9ERgJMFCnmWH4FA+NYBkQaJqxUUeHoutIxNZTHQFT39+I+BQ==}
@@ -2878,6 +2886,10 @@ snapshots:
   '@ungap/structured-clone@1.2.0': {}
 
   '@use-it/event-listener@0.1.7(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
+
+  '@vercel/analytics@0.1.11(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
