@@ -32,12 +32,14 @@ Sncraft',
   */
   discord: 'Shingeki no Craft Official Server',
   discord_invite: 'https://discord.gg/zf6g5KQ6H4',
+  youtube: '@FanfoYT', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
   twitter: 'FanfoArts',
+  // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
   // github: 'nijamaDev',
   // linkedin: 'nijamaDev',
-  // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
   // newsletter: '#', /* Optional newsletter URL */
-  youtube: '@FanfoYT', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
+  curseforge: 'https://www.curseforge.com/minecraft/customization/shingeki-no-craft',
+  planetminecraft: 'https://www.planetminecraft.com/data-pack/shingeki-no-craft-2/',
 
   /* (optional)
     Default notion icon and cover images for site-wide consistency.

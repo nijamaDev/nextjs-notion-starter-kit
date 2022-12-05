@@ -44,6 +44,7 @@
   width: 50%;
   height: 50%;
   fill: var(--fg-color-6);
+  stroke: var(--fg-color-6);
 }
 
 .actionBgPane {
@@ -66,10 +67,12 @@
 .action:hover svg {
   transition: fill 100ms ease-out;
   fill: var(--bg-color);
+  stroke: var(--bg-color);
 }
 
 :global(.dark-mode) .action:hover svg {
   fill: var(--fg-color);
+  stroke: var(--fg-color);
 }
 
 .facebook .actionBgPane {
@@ -84,6 +87,13 @@
 }
 .discord:hover {
   border-color: #5865f2;
+}
+
+.youtube .actionBgPane {
+  background: #FF0000;
+}
+.youtube:hover {
+  border-color: #FF0000;
 }
 
 .twitter .actionBgPane {
@@ -127,6 +137,21 @@
 .newsletter:hover {
   border-color: #777777;
 }
+
+.curseforge .actionBgPane {
+  background: #f16436;
+}
+.curseforge:hover {
+  border-color: #f16436;
+}
+
+.planetminecraft .actionBgPane {
+  background: #57b10f;
+}
+.planetminecraft:hover {
+  border-color: #57b10f;
+}
+
 
 .email .actionBgPane {
   background: #777;

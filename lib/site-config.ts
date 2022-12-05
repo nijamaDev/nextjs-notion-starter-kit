@@ -12,13 +12,15 @@ export interface SiteConfig {
 
   discord?: string
   discord_invite?:  string
+  youtube?: string
   twitter?: string
+  mastodon?: string;
   github?: string
   linkedin?: string
   newsletter?: string
-  youtube?: string
   zhihu?: string
-  mastodon?: string
+  curseforge?: string
+  planetminecraft?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null
