@@ -47,7 +47,7 @@ export default siteConfig({
   /* (optional)
     Whether or not to enable support for LQIP preview images.
   */
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   /* (optional)
     Whether or not redis is enabled for caching generated preview images.
