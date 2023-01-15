@@ -177,6 +177,29 @@
   text-align: center;
 }
 
+.notion-table {
+  width: auto !important;
+  min-width: auto !important;
+}
+.notion-collection {
+  width: auto !important;
+  min-width: auto !important;
+  display: inline-flex;
+  padding: 0;
+}
+.notion-table-view  {
+  padding: 0 !important;
+  min-width: auto !important;
+  width: auto !important;
+}
+.notion-table-row {
+  min-width: auto !important;
+  width: auto !important;
+}
+.notion-table-body {
+  min-width: auto !important;
+  width: auto !important;
+}
 .notion-collection-row {
   padding-bottom: 1em;
 }
