@@ -67,12 +67,12 @@ Sncraft',
     Any pages defined here will override their default URL paths.
     Example:
   */
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
-
+  pageUrlOverrides: {
+    '/Bestimmung': '63e12ead7a964642bc901d445ead8aec',
+    // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+  },
+  // pageUrlOverrides: null,
+  
   /* 
     Whether to use the default notion navigation style
     or a custom one with links to important pages.
