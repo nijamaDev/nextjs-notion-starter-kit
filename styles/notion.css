@@ -185,6 +185,12 @@
   width: auto !important;
   min-width: auto !important;
 }
+
+.notion-table-header {
+  width: auto !important;
+  min-width: auto !important;
+}
+
 .notion-collection {
   width: auto !important;
   min-width: auto !important;
