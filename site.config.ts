@@ -68,7 +68,7 @@ Sncraft',
     Example:
   */
   pageUrlOverrides: {
-    '/Bestimmung': '63e12ead7a964642bc901d445ead8aec',
+    // '/Bestimmung': '63e12ead7a964642bc901d445ead8aec',
     // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   },
   // pageUrlOverrides: null,
@@ -90,8 +90,8 @@ Sncraft',
       pageId: '03427235b5bc4055aefb5347895e562b'
     },
     {
-      title: 'Downloads',
-      pageId: 'be1d52e8e7c7458a85358eadbf3c3c67'
+      title: 'Download',
+      pageId: '51c9a58fa9eb427fa8e703c0fb6fa362'
     },
     /* {
       title: 'FAQ',
