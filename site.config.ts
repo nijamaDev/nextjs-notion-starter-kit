@@ -68,7 +68,7 @@ Sncraft',
     Example:
   */
   pageUrlOverrides: {
-    // '/Bestimmung': '63e12ead7a964642bc901d445ead8aec',
+    '/verrater': 'f93cee3b32b440068d3d1059a351a9f3',
     // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   },
   // pageUrlOverrides: null,
