@@ -17,7 +17,7 @@ export default siteConfig({
   */
   name: 'Shingeki no Craft Official Site & Wiki',
   domain: 'sncraft.fanfus.com',
-  author: 'Fanfus team',
+  author: 'Fanfus Projects',
 
   /* (optional)
     Open graph metadata
@@ -25,7 +25,7 @@ export default siteConfig({
   description: '\
 Shingeki no Craft Official Site and Wiki.\n\
 An Attack on Titan Minecraft Datapack.\n\
-Sncraft',
+Sncraft by Fanfus Projects',
 
   /* (optional)
     Social usernames
@@ -33,7 +33,7 @@ Sncraft',
   discord: 'Shingeki no Craft Official Server',
   discord_invite: 'https://discord.gg/zf6g5KQ6H4',
   youtube: '@FanfoYT', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
-  twitter: 'FanfoArts',
+  twitter: 'FanfoArtss',
   // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
   // github: 'nijamaDev',
   // linkedin: 'nijamaDev',
