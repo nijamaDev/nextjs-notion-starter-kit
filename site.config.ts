@@ -38,7 +38,8 @@ Sncraft by Fanfus Projects',
   // github: 'nijamaDev',
   // linkedin: 'nijamaDev',
   // newsletter: '#', /* Optional newsletter URL */
-  curseforge: 'https://www.curseforge.com/minecraft/customization/shingeki-no-craft',
+  modrinth: 'https://modrinth.com/datapack/shingeki-no-craft/versions',
+  //curseforge: 'https://www.curseforge.com/minecraft/customization/shingeki-no-craft',
   planetminecraft: 'https://www.planetminecraft.com/data-pack/shingeki-no-craft-2/',
 
   /* (optional)

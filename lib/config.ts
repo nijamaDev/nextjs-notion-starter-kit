@@ -63,6 +63,7 @@ export const youtube: string | null = getSiteConfig('youtube', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
 export const newsletter: string | null = getSiteConfig('newsletter', null)
 export const zhihu: string | null = getSiteConfig('zhihu', null)
+export const modrinth: string | null = getSiteConfig('modrinth', null)
 export const curseforge: string | null = getSiteConfig('curseforge', null)
 export const planetminecraft: string | null = getSiteConfig('planetminecraft', null)
 

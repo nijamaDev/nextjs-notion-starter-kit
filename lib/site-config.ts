@@ -19,6 +19,7 @@ export interface SiteConfig {
   linkedin?: string
   newsletter?: string
   zhihu?: string
+  modrinth?: string
   curseforge?: string
   planetminecraft?: string
 

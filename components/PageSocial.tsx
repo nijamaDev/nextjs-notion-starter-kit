@@ -62,6 +62,13 @@ const socialLinks: SocialLink[] = [
     icon: (<FaLinkedin />)
   },
 
+  config.modrinth && {
+    name: 'modrinth',
+    href: `${config.modrinth}`,
+    title: `Shingeki no Craft on Modrinth`,
+    icon: (<SiModrinth />)
+  },
+
   config.curseforge && {
     name: 'curseforge',
     href: `${config.curseforge}`,

@@ -138,6 +138,13 @@
   border-color: #777777;
 }
 
+.modrinth .actionBgPane {
+  background: #1bd96a;
+}
+.modrinth:hover {
+  border-color: #1bd96a;
+}
+
 .curseforge .actionBgPane {
   background: #f16436;
 }
