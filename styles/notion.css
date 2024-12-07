@@ -57,6 +57,10 @@
   gap: 0.5rem;
 }
 
+.notion-gallery {
+  width: inherit;
+}
+
 .notion-gallery-grid {
   /* notion pages max width is 660 aprox */
   grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
@@ -192,7 +196,7 @@
 }
 
 .notion-collection {
-  width: auto !important;
+  width: 100% !important;
   min-width: auto !important;
   display: inline-flex;
   padding: 0;
