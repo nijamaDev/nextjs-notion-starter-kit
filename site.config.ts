@@ -86,16 +86,20 @@ Sncraft by Fanfus Projects',
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Get Started',
+      title: '🚀 Get Started',
       pageId: '606e973b50894bfeb44a9da19033133e'
     },
     {
-      title: 'Wiki',
+      title: '📚 Wiki',
       pageId: '03427235b5bc4055aefb5347895e562b'
     },
     {
-      title: 'Download',
+      title: '❤️ Download',
       pageId: '51c9a58fa9eb427fa8e703c0fb6fa362'
+    },
+    {
+      title: '🌟 Other Projects ↗',
+      url: 'https://fanfus.com?utm_source=sncraft'
     },
     /* {
       title: 'FAQ',
