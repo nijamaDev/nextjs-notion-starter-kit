@@ -4,7 +4,7 @@ export default siteConfig({
   /* (required)
     The site's root Notion page
   */
-  rootNotionPageId: 'f9b740741d2c4e4bbc837800cc3a81b3',
+  rootNotionPageId: '1553c3a7c441805d8954e4dbb7bed2d6',
 
   /* (optional)
     if you want to restrict pages to a single notion workspace
@@ -15,8 +15,8 @@ export default siteConfig({
   /* (required)
     Basic site info
   */
-  name: 'Shingeki no Craft Official Site & Wiki',
-  domain: 'sncraft.fanfus.com',
+  name: 'Fanfus Projects',
+  domain: 'fanfus.com',
   author: 'Fanfus Projects',
 
   /* (optional)
@@ -28,9 +28,8 @@ export default siteConfig({
     Open graph metadata
   */
   description: '\
-Shingeki no Craft Official Site and Wiki.\n\
-An Attack on Titan Minecraft Datapack.\n\
-Sncraft by Fanfus Projects',
+Welcome to Fanfus Projects.\n\
+Discover more about us.',
 
   /* (optional)
     Social usernames
@@ -43,9 +42,9 @@ Sncraft by Fanfus Projects',
   // github: 'nijamaDev',
   // linkedin: 'nijamaDev',
   // newsletter: '#', /* Optional newsletter URL */
-  modrinth: 'https://modrinth.com/datapack/shingeki-no-craft/versions',
+  // modrinth: 'https://modrinth.com/datapack/shingeki-no-craft/versions',
   //curseforge: 'https://www.curseforge.com/minecraft/customization/shingeki-no-craft',
-  planetminecraft: 'https://www.planetminecraft.com/data-pack/shingeki-no-craft-2/',
+  // planetminecraft: 'https://www.planetminecraft.com/data-pack/shingeki-no-craft-2/',
 
   /* (optional)
     Default notion icon and cover images for site-wide consistency.
@@ -74,10 +73,13 @@ Sncraft by Fanfus Projects',
     Example:
   */
   pageUrlOverrides: {
-    '/149719398400': 'f93cee3b32b440068d3d1059a351a9f3',
+    '/aiko': '1553c3a7c44181f0b1c2c93c263e4b37',
+    '/coral': '1553c3a7c4418153975bc908777e34e9',
+
+    /* '/149719398400': 'f93cee3b32b440068d3d1059a351a9f3',
     '/did-you-know': '13e6ae6a2e1f476d8a2b3a5a5346a4e4',
     '/next': '72e247bea8a14bbba1a2cb3b171fe7c1',
-    '/gsod':'6866cb16c3194bc0843f34b410ae4a3b'
+    '/gsod':'6866cb16c3194bc0843f34b410ae4a3b' */
     // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   },
   // pageUrlOverrides: null,
@@ -91,21 +93,25 @@ Sncraft by Fanfus Projects',
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '🚀 Get Started',
-      pageId: '606e973b50894bfeb44a9da19033133e'
+      title: '⭐ Home',
+      pageId: '1553c3a7c441805d8954e4dbb7bed2d6'
     },
     {
+      title: '👥 About Us',
+      pageId: '1553c3a7c4418163bb48e8bbc44c3821'
+    },
+    /*{
       title: '📚 Wiki',
       pageId: '03427235b5bc4055aefb5347895e562b'
     },
     {
       title: '❤️ Download',
       pageId: '51c9a58fa9eb427fa8e703c0fb6fa362'
-    },
-    {
+    }, */
+    /* {
       title: '🌟 Other Projects ↗',
       url: 'https://fanfus.com?utm_source=sncraft'
-    },
+    }, */
     /* {
       title: 'FAQ',
       pageId: 'd1becce18ab24a59b020cd780f5634ff'
@@ -113,10 +119,6 @@ Sncraft by Fanfus Projects',
     {
       title: 'Discord',
       url: 'https://discord.gg/zf6g5KQ6H4'
-    },
-    {
-      title: 'About us',
-      pageId: 'da705a355d6f49c18078b6cd948bce4e'
     },
     {
       title: 'Support us',

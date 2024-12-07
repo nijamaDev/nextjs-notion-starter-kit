@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
-            <script defer data-domain="sncraft.fanfus.com" src="https://plausible.fanfus.com/js/script.file-downloads.outbound-links.js"></script>
+            <script defer data-domain="fanfus.com" src="https://plausible.fanfus.com/js/script.file-downloads.outbound-links.js"></script>
             <script
               dangerouslySetInnerHTML={{
                 __html: `
