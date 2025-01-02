@@ -20,6 +20,11 @@ export default siteConfig({
   author: 'Fanfus Projects',
 
   /* (optional)
+    Crawlable by Google and other robots, required if you want Google to index the website, defaults to false.
+  */
+  indexable: true,
+
+  /* (optional)
     Open graph metadata
   */
   description: '\

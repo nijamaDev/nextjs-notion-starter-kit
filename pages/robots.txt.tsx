@@ -1,6 +1,7 @@
 import type { GetServerSideProps } from 'next'
 
 import { host } from '@/lib/config'
+import { getSiteConfig } from '@/lib/get-config-value'
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   if (req.method !== 'GET') {
@@ -18,8 +19,9 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   res.setHeader('Cache-Control', 'public, max-age=86400, immutable')
   res.setHeader('Content-Type', 'text/plain')
 
+  const indexable: boolean = getSiteConfig('indexable', false);
   // only allow the site to be crawlable on the production deployment
-  if (process.env.VERCEL_ENV === 'production') {
+  if (indexable) {
     res.write(`User-agent: *
 Allow: /
 Disallow: /api/get-tweet-ast/*
